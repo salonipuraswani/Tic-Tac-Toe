@@ -1,0 +1,66 @@
+body{
+    background-color: #D5BBB1;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container{
+    height:70vh;
+    width:70vh;
+    gap:4px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: #E76D83;
+    border-radius: 1rem;
+    height: calc(70vh / 3 - 4px); /* Adjust 4px gap */
+    width: calc(70vh / 3 - 4px);
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.winner-msg{
+    color: #393D3F;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    display:none;
+}
+.new-btn{
+    background-color: #9CC4B2;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    size: 50;
+    border-radius: 0.2rem;
+    box-shadow: #393D3F;
+    justify-self: center;
+    display:none;
+}
+.reset{
+    background-color: #9CC4B2;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    size: 50;
+    border-radius: 0.2rem;
+    box-shadow: #393D3F;
+    display:block;
+}
+.start-msg{
+    color: #393D3F;
+    font-size:larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
